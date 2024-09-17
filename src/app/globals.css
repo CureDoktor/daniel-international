@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "PP Mori";
-  src: url("../app//fonts/ppmori-extralight.otf") format("opentype");
+  src: url("../app/fonts/ppmori-extralight.otf") format("opentype");
   font-weight: 300;
   font-style: thin;
 }
