@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "PP Mori";
+  src: url("../app//fonts/ppmori-extralight.otf") format("opentype");
+  font-weight: 300;
+  font-style: thin;
+}
+@font-face {
+  font-family: "PP Mori";
+  src: url("./fonts/ppmori-regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PP Mori";
+  src: url("./fonts/ppmori-semibold.otf") format("opentype");
+  font-weight: 500;
+  font-style: bold;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    font-family: "PP Mori", sans-serif;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: #f9fbff;
+  font-family: "PP Mori", sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
