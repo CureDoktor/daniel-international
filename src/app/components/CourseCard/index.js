@@ -1,5 +1,9 @@
+import Image from "next/image";
+
 export default function CourseCard({
   imgSource,
+  imgHeight,
+  imgWidth,
   header,
   text,
   available,
@@ -9,7 +13,13 @@ export default function CourseCard({
   return (
     <div className="bg-white shadow-md p-5">
       <div className="flex justify-between">
-        <img src={`${imgSource}`} alt="Source" />
+        <Image
+          src={`${imgSource}`}
+          alt="Source"
+          width={imgWidth} // Let it scale dynamically
+          height={imgHeight}
+          quality={100}
+        />
         <div
           className={`text-[16px] text-center rounded-xl h-[25px] w-[80px]  ${
             available == true
