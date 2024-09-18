@@ -2,6 +2,7 @@
 import CourseCard from "../CourseCard";
 import VideoCourse from "../VideoCourse";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Academy() {
   const [content, setContent] = useState(1);
@@ -17,6 +18,8 @@ export default function Academy() {
       text: "Sharpen IQ with quick, interactive lessons on critical thinking and problem-solving",
       available: true,
       content: 2,
+      imgWidth: 96,
+      imgHeight: 80,
     },
     {
       imgPath: "/images/book.png",
@@ -24,6 +27,8 @@ export default function Academy() {
       text: "Sharpen IQ with quick, interactive lessons on critical thinking and problem-solving",
       available: true,
       content: 3,
+      imgWidth: 86,
+      imgHeight: 80,
     },
     {
       imgPath: "/images/EqTest.png",
@@ -31,6 +36,8 @@ export default function Academy() {
       text: "Sharpen IQ with quick, interactive lessons on critical thinking and problem-solving",
       available: true,
       content: 4,
+      imgWidth: 74,
+      imgHeight: 80,
     },
     {
       imgPath: "/images/advancedIQ.png",
@@ -38,6 +45,8 @@ export default function Academy() {
       text: "Sharpen IQ with quick, interactive lessons on critical thinking and problem-solving",
       available: false,
       content: 5,
+      imgWidth: 80,
+      imgHeight: 80,
     },
     {
       imgPath: "/images/SuperAdvancedIQ.png",
@@ -45,6 +54,8 @@ export default function Academy() {
       text: "Sharpen IQ with quick, interactive lessons on critical thinking and problem-solving",
       available: false,
       content: 6,
+      imgWidth: 98,
+      imgHeight: 80,
     },
   ];
   return (
@@ -72,7 +83,12 @@ export default function Academy() {
                   <div className="h-1 bg-orange-300 w-[50%]"></div>
                 </div>
               </div>
-              <img src="/images/star.png" alt="Star" />
+              <Image
+                src="/images/star.png"
+                alt="Star"
+                height={130}
+                width={80}
+              />
             </div>
           </div>
           <div className=" grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -81,6 +97,8 @@ export default function Academy() {
                 <CourseCard
                   key={element.imgPath}
                   imgSource={element.imgPath}
+                  imgWidth={element.imgWidth}
+                  imgHeight={element.imgHeight}
                   header={element.header}
                   text={element.text}
                   available={element.available}
