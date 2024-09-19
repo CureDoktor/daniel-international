@@ -13,7 +13,7 @@ export default function Academy() {
 
   const AcademyOptions = [
     {
-      imgPath: "/images/videoCourse.png",
+      imgPath: "/images/videoCourse.svg",
       header: "Video course",
       text: "Sharpen IQ with quick, interactive lessons on critical thinking and problem-solving",
       available: true,
@@ -22,7 +22,7 @@ export default function Academy() {
       imgHeight: 80,
     },
     {
-      imgPath: "/images/book.png",
+      imgPath: "/images/book.svg",
       header: "IQ training",
       text: "Sharpen IQ with quick, interactive lessons on critical thinking and problem-solving",
       available: true,
@@ -31,7 +31,7 @@ export default function Academy() {
       imgHeight: 80,
     },
     {
-      imgPath: "/images/EqTest.png",
+      imgPath: "/images/EqTest.svg",
       header: "EQ test",
       text: "Sharpen IQ with quick, interactive lessons on critical thinking and problem-solving",
       available: true,
@@ -40,7 +40,7 @@ export default function Academy() {
       imgHeight: 80,
     },
     {
-      imgPath: "/images/advancedIQ.png",
+      imgPath: "/images/advancedIQ.svg",
       header: "Advanced IQ test ",
       text: "Sharpen IQ with quick, interactive lessons on critical thinking and problem-solving",
       available: false,
@@ -49,7 +49,7 @@ export default function Academy() {
       imgHeight: 80,
     },
     {
-      imgPath: "/images/SuperAdvancedIQ.png",
+      imgPath: "/images/SuperAdvancedIQ.svg",
       header: "Super Advanced IQ test",
       text: "Sharpen IQ with quick, interactive lessons on critical thinking and problem-solving",
       available: false,
@@ -84,7 +84,7 @@ export default function Academy() {
                 </div>
               </div>
               <Image
-                src="/images/star.png"
+                src="/images/star.svg"
                 alt="Star"
                 height={130}
                 width={80}
