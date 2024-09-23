@@ -57,3 +57,10 @@ body {
     text-wrap: balance;
   }
 }
+
+.slick-dots svg {
+  opacity: 0.4;
+}
+.slick-dots .slick-active svg {
+  opacity: 1;
+}
