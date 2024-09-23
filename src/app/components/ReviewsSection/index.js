@@ -10,7 +10,7 @@ function PreviousArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
-      className="absolute hidden md:d-block top-[-100px] right-[60px] rounded-full
+      className="absolute hidden md:block top-[-100px] right-[60px] rounded-full
 
       shadow-md cursor-pointer bg-white w-[48px] h-[48px]"
       onClick={onClick}
@@ -36,7 +36,7 @@ function NextArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
-      className="absolute hidden md:d-block top-[-100px] right-[0px] rounded-full
+      className="absolute hidden md:block top-[-100px] right-[0px] rounded-full
 
       shadow-md cursor-pointer bg-white w-[48px] h-[48px]"
       onClick={onClick}
@@ -68,7 +68,7 @@ function ReviewsSection() {
     dotsClass: "slick-dots slick-thumb",
     customPaging: function (i) {
       return (
-        <a className="w-5 h-5 hidden md:d-block bg-orange">
+        <a className="w-5 h-5 hidden md:block bg-orange">
           <svg
             width="12"
             height="12"

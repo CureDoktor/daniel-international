@@ -578,7 +578,7 @@ export default function Checkout() {
             <h2 className="text-[38px] md:text-[52px] md:w-2/5 font-bold tracking-tight leading-[56px]">
               Why You Can Trust <br /> IQ International
             </h2>
-            <p className="hidden md:d-block md:w-3/5 text-[#8893AC] font-[400] md:pl-12 leading-[26px] text-[18px]">
+            <p className="hidden md:block md:w-3/5 text-[#8893AC] font-[400] md:pl-12 leading-[26px] text-[18px]">
               IQ International is a trusted leader in cognitive development,
               offering accurate, research-backed content. With expert guidance
               and a proven track record, we ensure reliable, user-focused
@@ -699,7 +699,7 @@ export default function Checkout() {
       </div>
       <div className="max-w-[1276px] m-auto py-10 px-3 md:px-0">
         <h1 className="text-[38px] md:text-[52px] text-center font-bold tracking-tight leading-[56px] py-20">
-          How Improving Your IQ Score <br className="hidden md:d-block" />
+          How Improving Your IQ Score <br className="hidden md:block" />
           Can Impact Your Life
         </h1>
         <div className="md:flex md:space-x-6 md:mb-10">
