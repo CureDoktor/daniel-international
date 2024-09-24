@@ -28,7 +28,7 @@ export default function Footer() {
             <div className="md:flex flex-shrink-0 items-center">
               <img
                 alt="Academy Logo"
-                src="/images/Logo.png"
+                src="/images/Logo.svg"
                 className="m-auto h-8 w-auto mb-5 md:mb-0"
               />
             </div>

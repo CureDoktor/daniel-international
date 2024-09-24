@@ -47,7 +47,7 @@ export default function Navbartwo() {
               <div className="flex flex-shrink-0 items-center">
                 <img
                   alt="Academy Logo"
-                  src="/images/Logo.png"
+                  src="/images/Logo.svg"
                   className="h-8 w-auto hidden md:block"
                 />
                 <Image
