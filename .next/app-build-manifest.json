@@ -11,12 +11,6 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/checkout/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/checkout/page.css",
-      "static/chunks/app/checkout/page.js"
-    ],
     "/eq-results/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",

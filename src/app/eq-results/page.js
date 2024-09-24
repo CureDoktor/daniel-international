@@ -6,16 +6,16 @@ import CategoryScores from "../components/CategoryScores";
 import Footer from "../components/Footer";
 
 export default function Checkout() {
-  const testResult = localStorage.getItem("finalScoreEQ");
-  console.log(testResult);
+  const [parsedTestResult, setParsedTest] = useState("");
+  useEffect(() => {
+    var parsedTest = "";
+    const testResult = localStorage.getItem("finalScoreEQ");
+    if (testResult) {
+      parsedTest = JSON.parse(testResult);
+    }
 
-  var parsedTestResult = "";
-
-  if (testResult) {
-    parsedTestResult = JSON.parse(testResult);
-  }
-
-  console.log(parsedTestResult);
+    setParsedTest(parsedTest);
+  }, []);
 
   // const {
   //   emotionalResult,

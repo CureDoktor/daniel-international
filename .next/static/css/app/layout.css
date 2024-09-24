@@ -678,9 +678,6 @@ video {
 .block {
   display: block;
 }
-.inline {
-  display: inline;
-}
 .flex {
   display: flex;
 }
@@ -858,11 +855,11 @@ video {
 .max-w-\[412px\] {
   max-width: 412px;
 }
-.max-w-full {
-  max-width: 100%;
-}
 .max-w-\[800px\] {
   max-width: 800px;
+}
+.max-w-full {
+  max-width: 100%;
 }
 .flex-1 {
   flex: 1 1 0%;
@@ -1037,13 +1034,13 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(253 186 116 / var(--tw-bg-opacity));
 }
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
 .bg-orange-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 115 22 / var(--tw-bg-opacity));
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
@@ -1127,6 +1124,10 @@ video {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -1143,21 +1144,13 @@ video {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
-.py-7 {
-  padding-top: 1.75rem;
-  padding-bottom: 1.75rem;
-}
-.py-36 {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
-}
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
-.py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
 }
 .pb-0\.5 {
   padding-bottom: 0.125rem;
@@ -1505,10 +1498,6 @@ body {
 .hover\:bg-\[\#FF932F\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 147 47 / var(--tw-bg-opacity));
-}
-.hover\:bg-orange-500:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
 }
 .hover\:bg-orange-100:hover {
   --tw-bg-opacity: 1;
