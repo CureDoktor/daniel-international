@@ -3,6 +3,7 @@ import CourseCard from "../CourseCard";
 import VideoCourse from "../VideoCourse";
 import { useState } from "react";
 import Image from "next/image";
+import EQ from "../EQ";
 
 export default function Academy() {
   const [content, setContent] = useState(1);
@@ -60,7 +61,8 @@ export default function Academy() {
   ];
   return (
     <main>
-      {content != 1 && (
+      {content == 4 && <EQ />}
+      {content != 1 && content != 4 && (
         <div>
           <VideoCourse setContent={setContent} />
         </div>
