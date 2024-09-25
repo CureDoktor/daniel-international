@@ -17,6 +17,8 @@ export default function VideoCourse({ setContent }) {
   );
   const [open, setOpen] = useState(false);
 
+  const [header, setHeader] = useState("");
+
   return (
     <div>
       <div className="md:flex justify-between pt-10">
@@ -49,16 +51,19 @@ export default function VideoCourse({ setContent }) {
               <div>
                 <div className="hidden md:block">
                   <CourseCardPart
+                    setHeader={setHeader}
                     available={true}
                     header="Introduction to course"
                     time="01:15:24"
                   />
                   <CourseCardPart
+                    setHeader={setHeader}
                     available={true}
                     header="What is IQ and how it is measured"
                     time="02:31:16"
                   />
                   <CourseCardPart
+                    setHeader={setHeader}
                     available={true}
                     header="How IQ score can be increased"
                     time="01:05:10"
@@ -71,16 +76,19 @@ export default function VideoCourse({ setContent }) {
                   }}
                 >
                   <CourseCardPart
+                    setHeader={setHeader}
                     available={true}
                     header="Introduction to course"
                     time="01:15:24"
                   />
                   <CourseCardPart
+                    setHeader={setHeader}
                     available={true}
                     header="What is IQ and how it is measured"
                     time="02:31:16"
                   />
                   <CourseCardPart
+                    setHeader={setHeader}
                     available={true}
                     header="How IQ score can be increased"
                     time="01:05:10"
@@ -94,16 +102,19 @@ export default function VideoCourse({ setContent }) {
             content={
               <div>
                 <CourseCardPart
+                  setHeader={setHeader}
                   available={false}
                   header="IQ boosting triad"
                   time="01:20:12"
                 />
                 <CourseCardPart
+                  setHeader={setHeader}
                   available={false}
                   header="Memory training"
                   time="02:12:09"
                 />
                 <CourseCardPart
+                  setHeader={setHeader}
                   available={false}
                   header="Brain leverage exercises"
                   time="01:22:34"
@@ -116,16 +127,19 @@ export default function VideoCourse({ setContent }) {
             content={
               <div>
                 <CourseCardPart
+                  setHeader={setHeader}
                   available={false}
                   header="IQ boosting triad"
                   time="01:20:12"
                 />
                 <CourseCardPart
+                  setHeader={setHeader}
                   available={false}
                   header="Memory training"
                   time="02:12:09"
                 />
                 <CourseCardPart
+                  setHeader={setHeader}
                   available={false}
                   header="Brain leverage exercises"
                   time="01:22:34"
@@ -138,16 +152,19 @@ export default function VideoCourse({ setContent }) {
             content={
               <div>
                 <CourseCardPart
+                  setHeader={setHeader}
                   available={false}
                   header="IQ boosting triad"
                   time="01:20:12"
                 />
                 <CourseCardPart
+                  setHeader={setHeader}
                   available={false}
                   header="Memory training"
                   time="02:12:09"
                 />
                 <CourseCardPart
+                  setHeader={setHeader}
                   available={false}
                   header="Brain leverage exercises"
                   time="01:22:34"
@@ -160,16 +177,19 @@ export default function VideoCourse({ setContent }) {
             content={
               <div>
                 <CourseCardPart
+                  setHeader={setHeader}
                   available={false}
                   header="IQ boosting triad"
                   time="01:20:12"
                 />
                 <CourseCardPart
+                  setHeader={setHeader}
                   available={false}
                   header="Memory training"
                   time="02:12:09"
                 />
                 <CourseCardPart
+                  setHeader={setHeader}
                   available={false}
                   header="Brain leverage exercises"
                   time="01:22:34"
@@ -180,7 +200,7 @@ export default function VideoCourse({ setContent }) {
         </div>
         <div className="pt-10 md:pt-0 md:ml-10 mb-30 hidden md:block">
           <p className="text-[#191919] text-[18px] pb-6  md:pb-10 font-semibold">
-            Week 1: Get started / Introduction to course
+            {header}
           </p>
           <VideoComponent source={source} />
           <div className="bg-white p-6">
@@ -227,7 +247,7 @@ export default function VideoCourse({ setContent }) {
                       className="text-base flex justify-between font-semibold leading-6 text-gray-900"
                     >
                       <p className="text-[#191919] text-[18px] font-semibold">
-                        Week 1: Get started / Introduction to course
+                        {header}
                       </p>
                       <div onClick={() => setOpen(false)} className="ml-auto">
                         <svg

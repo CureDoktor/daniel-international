@@ -1,7 +1,11 @@
-export default function CourseCardPart({ header, time, available }) {
+export default function CourseCardPart({ header, time, available, setHeader }) {
   return (
-    <div className="bg-white shadow-md p-5 flex border-b-2 cursor-pointer">
-      {}
+    <div
+      onClick={() => {
+        setHeader(header);
+      }}
+      className="bg-white shadow-md p-5 flex border-b-2 cursor-pointer"
+    >
       {available == true ? (
         <img
           className="max-w-[40px] h-[40px] w-[40px]"
