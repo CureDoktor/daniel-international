@@ -1,6 +1,7 @@
 export default function CourseCardPart({ header, time, available }) {
   return (
     <div className="bg-white shadow-md p-5 flex border-b-2 cursor-pointer">
+      {}
       {available == true ? (
         <img
           className="max-w-[40px] h-[40px] w-[40px]"
@@ -22,7 +23,7 @@ export default function CourseCardPart({ header, time, available }) {
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             stroke="currentColor"
             class="size-5 pb-0.5 mr-1"
           >
@@ -40,7 +41,7 @@ export default function CourseCardPart({ header, time, available }) {
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
-          stroke-width="1.5"
+          strokeWidth="1.5"
           stroke="currentColor"
           class="size-6 text-[#8893AC] ml-auto mt-2"
         >
