@@ -78,7 +78,7 @@ export default function ReviewCard({ name, text, date }) {
           </clipPath>
         </defs>
       </svg>
-      <h2 className="text-[20px] font-bold pt-4">{name}</h2>
+      <h2 className="text-[20px] font-bold pt-4 text-[#191919]">{name}</h2>
       <p className="text-[#8893AC] text-[18px] pt-3 pb-5">{text}</p>
       <p className="text-[#8893AC] text-[16px]">{date}</p>
     </div>

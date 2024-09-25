@@ -76,7 +76,7 @@ export default function Checkout() {
             </div>
           </div>
           <img
-            src="/images/mobile-hero.png"
+            src="/images/mobile-hero.svg"
             className="d-block md:hidden mx-auto"
           />
           <div>
@@ -306,7 +306,7 @@ export default function Checkout() {
           <div className="md:w-1/2 md:ml-16">
             <div className="flex justify-between pt-5 md:pt-0 pb-2">
               <div class="text-center md:text-left py-4 md:py-0">
-                <p className="text-[20px] md:text-[26px] font-bold">
+                <p className="text-[20px] md:text-[26px] font-bold text-[#191919]">
                   Payment Details
                 </p>
               </div>
@@ -340,7 +340,7 @@ export default function Checkout() {
             <div className="flex space-x-4 pt-4 pb-2">
               <button className="py-4 px-8 shadow-[0_4px_8px_0px_#003A6F0D] rounded-xl w-1/3">
                 <Image
-                  src="/images/paypal.png"
+                  src="/images/paypal.svg"
                   width={66}
                   height={17}
                   className="d-block mx-auto"
@@ -379,7 +379,7 @@ export default function Checkout() {
                     placeholder="Card Number"
                   />
                   <Image
-                    src="/images/cards.png"
+                    src="/images/cards.svg"
                     width={206}
                     height={24}
                     className="absolute right-2 top-3"
@@ -575,7 +575,7 @@ export default function Checkout() {
         </div>
         <div className="max-w-[1276px] mx-auto mt-16 px-3 md:px-0 pb-8">
           <div className="md:flex">
-            <h2 className="text-[38px] md:text-[52px] md:w-2/5 font-bold tracking-tight leading-[56px]">
+            <h2 className="text-[38px] md:text-[52px] md:w-2/5 font-bold tracking-tight leading-[56px] text-[#191919]">
               Why You Can Trust <br /> IQ International
             </h2>
             <p className="hidden md:block md:w-3/5 text-[#8893AC] font-[400] md:pl-12 leading-[26px] text-[18px]">
@@ -698,7 +698,7 @@ export default function Checkout() {
         </div>
       </div>
       <div className="max-w-[1276px] m-auto py-10 px-3 md:px-0">
-        <h1 className="text-[38px] md:text-[52px] text-center font-bold tracking-tight leading-[56px] py-20">
+        <h1 className="text-[38px] md:text-[52px] text-center text-[#191919] font-bold tracking-tight leading-[56px] py-20">
           How Improving Your IQ Score <br className="hidden md:block" />
           Can Impact Your Life
         </h1>
@@ -743,7 +743,7 @@ of your life"
       </div>
       <div className=" bg-white">
         <div className="m-auto max-w-[1276px] pt-12 pb-12  md:pt-24 md:pb-36 relative ">
-          <h1 className=" font-bold tracking-tight text-center md:text-left leading-[56px] text-[52px]">
+          <h1 className=" font-bold tracking-tight text-center md:text-left leading-[56px] text-[52px] text-[#191919]">
             Reviews
           </h1>
           <div className="flex w-[300px] mx-auto  md:mx-0 md:w-auto py-1 md:pt-6 md:pb-3">
@@ -827,7 +827,7 @@ of your life"
       <div>
         <div className="max-w-[1276px] px-3 md:px-0 mx-auto py-10 md:pt-24 md:pb-36">
           <div className="md:flex">
-            <h2 className="text-[38px] md:text-[52px] md:w-2/5 font-bold tracking-tight pb-5 md:pb-5 leading-[56px]">
+            <h2 className="text-[38px] md:text-[52px] md:w-2/5 font-bold tracking-tight pb-5 md:pb-5 leading-[56px] text-[#191919]">
               Frequently Asked Questions
             </h2>
             <div className="md:w-3/5 text-[#8893AC] font-[400] md:pl-12 leading-[26px] text-[18px]">
@@ -870,7 +870,7 @@ of your life"
       <div className="bg-white">
         <div className="max-w-[1276px] mx-auto pt-24 pb-36">
           <div className="px-5 md:px-0">
-            <h1 className="text-[52px] text-center font-bold tracking-tight leading-[56px] pb-20">
+            <h1 className="text-[52px] text-center font-bold tracking-tight leading-[56px] pb-20 text-[#191919]">
               Latest results
             </h1>
             <div>

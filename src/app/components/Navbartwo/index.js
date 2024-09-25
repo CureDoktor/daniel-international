@@ -25,7 +25,7 @@ export default function Navbartwo() {
     <div>
       <div className=" border-b-2">
         <div className="flex text-[16px] md:text-[18px] w-[350px] md:w-[450px] mx-auto text-center py-4">
-          <p className="pt-1">
+          <p className="pt-1 text-[#191919]">
             <b>Michael</b> Just Bought his IQ Score!{" "}
           </p>
           <Image

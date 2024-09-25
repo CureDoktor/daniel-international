@@ -44,7 +44,7 @@ export default function Footer() {
                         item.current
                           ? "text-[#191919] hover:text-[#FF932F]"
                           : "text-[#191919] hover:text-[#FF932F]",
-                        "rounded-md px-3 py-2 text-lg transition-all	 font-semibold"
+                        "rounded-md px-3 py-2 text-lg transition-all font-semibold"
                       )}
                     >
                       {item.name}

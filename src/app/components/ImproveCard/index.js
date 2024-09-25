@@ -11,7 +11,7 @@ export default function ImproveCard({ imgSource, header, text }) {
           className="d-block m-auto pt-3"
         />
       </div>
-      <h3 className="text-[24px] font-bold pt-5 pb-1">{header}</h3>
+      <h3 className="text-[24px] font-bold pt-5 pb-1 text-[#191919]">{header}</h3>
       <p className="text-[#8893AC] font-[400] leading-[26px] text-[16px]">
         {text}
       </p>

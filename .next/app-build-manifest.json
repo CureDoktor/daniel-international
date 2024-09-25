@@ -11,10 +11,16 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/eq-results/page": [
+    "/checkout/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/eq-results/page.js"
+      "static/css/app/checkout/page.css",
+      "static/chunks/app/checkout/page.js"
+    ],
+    "/mobile-checkout/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/mobile-checkout/page.js"
     ]
   }
 }
